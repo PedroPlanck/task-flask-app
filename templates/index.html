@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seddi Labs - Tecnología + Moda</title>
+
+  <link rel="icon" href="https://seddilabs.com/wp-content/uploads/2019/10/Asset-1.png" sizes="32x32" />
+  <link rel="icon" href="https://seddilabs.com/wp-content/uploads/2019/10/Asset-1.png" sizes="192x192" />
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom CSS -->
+  <!-- <link href="css/stylish-portfolio.min.css" rel="stylesheet"> -->
+  <link href="{{ url_for('static',filename='styles/css/stylish-portfolio.min.css') }}" rel="stylesheet">
+
+
+
+</head>
+
+<body id="page-top">
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">Welcome Seddi!</h1>
+      <h3 class="mb-5">
+        <em>Python and Devops Project</em>
+      </h3>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="{{ url_for('view') }}">Show stored connections</a>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+</body>
+
+</html>
