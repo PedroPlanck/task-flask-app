@@ -6,7 +6,7 @@ from sqlalchemy import DateTime
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 app = Flask(__name__)
-app.config[ "SQLALCHEMY_DATABASE_URI" ] = os.environ.get("DATABASE_URL") or "sqlite:///" + os.path.join(basedir, "data.sqlitee" )
+app.config[ "SQLALCHEMY_DATABASE_URI" ] = os.environ.get("DATABASE_URL") or "sqlite:///" + os.path.join(basedir, "data.sqlite" )
 app.config[ "SQLALCHEMY_TRACK_MODIFICATIONS" ] = False
 db = SQLAlchemy(app)
 
